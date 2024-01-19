@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">APP<span>A</span>REL</h1>
+            <ul>
+                <li><input class="searchBar" type="search" placeholder="Search products on Apparel.in"></li>
+                <li class="home"><a>HOME</a></li>
+                <li class="shop"><a>SHOP</a></li>
+                <li class="blog"><a>BLOG</a></li>
+                <li class="offer"><a>OFFER</a></li>
+                <li class="contact"><a>CONTACT</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-user"></i><i
+                        class="fa-solid fa-cart-shopping"></i></li>
+
+                </li>
+                <li id="menu-btn" onclick="showSideNavbar()" style="float: left; margin-right: 100px;"><i
+                        class="fa-solid fa-bars"></i></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+
+    <div class="side_navbar">
+        <p><i id="cross_bar" onclick="closeSideNavbar()" class="fa-solid fa-xmark"></i></p>
+        <div class="side_navbar_links">
+            <p><i class="fa-solid fa-house" style="color: #ffffff;"></i>HOME</p>
+            <p><i class="fa-solid fa-shop" style="color: #ffffff;"></i>SHOP</p>
+            <p><i class="fa-solid fa-blog" style="color: #ffffff;"></i>BLOG</p>
+            <p><i class="fa-solid fa-money-bill-trend-up" style="color: #ffffff;"></i>OFFER</p>
+            <p><i class="fa-solid fa-address-book" style="color: #ffffff;"></i>CONTACT</p>
+        </div>
+    </div>
+    <div class="landing-container">
+        <div class="founder">
+            <p><span class="brand">FASHION BRAND<br></span><span class="founder-name">Sasikumar's<br></span><span
+                    class="est" style="padding-top:12px;">EST .2003</span></p>
+            <p class="brand-slogan">Best Clothing Brand<br> Soft & High Quality<br>Great Comfort & Value<br>Very Warm &
+                Thin</p>
+            <p class="count"><span>01 | </span><span>02 |</span><span> 03</span></p>
+        </div>
+
+        <div class="landingImage">
+            <img class="baby-Image" src="images/babyFirst.jpg">
+        </div>
+    </div>
+
+
+
+    <div class="specification">
+        <div class="specification-components">
+
+
+            <div class="specification_sub_container">
+                <img src="images/shippingImage.png">
+                <p>Shipping Worldwide</p>
+            </div>
+
+
+            <div class="specification_sub_container">
+                <img src="images/returnOrderimage.png">
+                <p>30 Days Return</p>
+            </div>
+
+
+            <div class="specification_sub_container">
+                <img src="images/safesecureImage.png">
+                <p>Safe & Secure</p>
+            </div>
+
+
+            <div class="specification_sub_container">
+                <img src="images/fastDeliveryImage.png">
+                <p>Fast Delivery</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="new-arrival-container">
+        <h1>New Arrivals</h1>
+        <p>FIND & SHOP YOUR DESIRED PRODUCT</p>
+
+    </div>
+    <div class="age-catogery">
+        <a>All</a>
+        <a>Mens</a>
+        <a>Womens</a>
+        <a>Kids</a>
+        <a>Others</a>
+
+    </div>
+
+    <div class="container">
+        <div class="womens_card">
+            <div class="image-container">
+                <img class="women-dress" src="images/DressWomen1.jpg" width="350" height="550" />
+            </div>
+            <h3>Long Skirt</h3>
+            <p>$250.00 ~ $350.00</p>
+            <h4>$450.00 ~ $550.00</h4>
+        </div>
+
+
+        <div class="womens_card">
+            <div class="image-container">
+                <img class="women-dress" src="images/dressWomen2.jpg" width="300" height="500" />
+            </div>
+            <h3>Modern Top & Pant</h3>
+            <p>$350.00 ~ $450.00</p>
+            <h4>$450.00 ~ $550.00</h4>
+        </div>
+
+        <div class="womens_card">
+            <div class="image-container">
+                <img class="women-dress" src="images/DressWomen3.jpg" width="300" height="500" />
+            </div>
+
+            <h3>Summer Outfit</h3>
+            <p>$200.00 ~ $350.00</p>
+            <h4>$250.00 ~ $550.00</h4>
+        </div>
+
+
+        <div class="womens_card">
+            <div class="image-container"></div>
+            <img class="women-dress" src="images/DressWomen4.jpg" width="300" height="500" />
+            <div class="image-container"></div>
+
+            <h3>Traditional Chuty</h3>
+            <p>$450.00 ~ $550.00</p>
+            <h4>$550.00 ~ $650.00</h4>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="mid_container">
+        <div class="mid_container_card">
+            <div class="image-container">
+                <img class="mid_container_image" src="images/mensShopNowImage.jfif" />
+            </div>
+            <div class="mid_container_content">
+                <h3>Men<br>Blazer Collection</h3>
+                <p>TRADITIONAL OUTFIT</p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+
+
+        <div class="mid_container_card">
+            <div class="image-container">
+                <img class="mid_container_image" src="images/limitedEditionDressImage.jpg" width="300" height="500" />
+            </div>
+
+            <div class="mid_container_content">
+
+                <p>LIMITED EDITION</p>
+                <h3 style="opacity: 0.8;margin-top:5px; letter-spacing: 0.5px;">KIDS COLLECTION</h3>
+            </div>
+        </div>
+
+        <div class="mid_container_card">
+            <div class="image-container">
+                <img class="mid_container_image" src="images/shopNowOfferImage.jpg" width="300" height="500" />
+            </div>
+
+            <div class="mid_container_content">
+                <h3 style="letter-spacing: 0.5px;">Sale<br>Upto 50%</h3>
+                <p>2024 COLLECTIONS</p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <div class="offer_container">
+
+        <div class="offer_container_content">
+            <h1>Summer Sale<br><span>Upto 50% Off</span> </h1>
+            <p>LIMITED OFFER</p>
+            <button>SHOP NOW</button>
+        </div>
+
+        <div class="offer_container_image">
+            <img src="images/offerContainerImage.jpg" />
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <div class="popular_products_container_heading">
+        <h1>Popular Products</h1>
+    </div>
+
+
+
+    <div class="popular_products_container">
+        <div class="popular_products_card">
+            <div class="popular_product_image_container">
+                <img class="popular_product_image" src="images/Popular_Products/popularProductsShirtImage.jpg" />
+            </div>
+
+            <div class="popular_addtocart_content">
+                <div class="star_rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <button>ADD TO CART</button>
+
+            </div>
+            <div class="popular_price_content">
+                <h3>Formal Shirts</h3>
+                <p>$200.00 ~ $300.00</p>
+                <h4>$300.00 ~ $400.00</h4>
+            </div>
+        </div>
+
+
+        <div class="popular_products_card">
+            <div class="popular_product_image_container">
+                <img class="popular_product_image" src="images/Popular_Products/popularProductsCapImage.jpg" />
+            </div>
+
+            <div class="popular_addtocart_content">
+                <div class="star_rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <button>ADD TO CART</button>
+
+            </div>
+            <div class="popular_price_content">
+                <h3>Men's Cap</h3>
+                <p>$50.00 ~ $70.00</p>
+                <h4>$100.00 ~ $150.00</h4>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="popular_products_card">
+            <div class="popular_product_image_container">
+                <img class="popular_product_image"
+                    src="images/Popular_Products/popularProductsGeansTrauserImage.jpg" />
+            </div>
+
+            <div class="popular_addtocart_content">
+                <div class="star_rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked " style="background-color: transparent;"></span>
+                </div>
+                <button>ADD TO CART</button>
+
+            </div>
+            <div class="popular_price_content">
+                <h3>Jeans & Trusher</h3>
+                <p>$300.00 ~ $350.00</p>
+                <h4>$400.00 ~ $450.00</h4>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="popular_product_special_card">
+            <div class="popular_product_image_container">
+                <img class="popular_product_image" src="images/Popular_Products/popularProductsShoeImage.jpg" />
+            </div>
+            <div class="popular_product_special_card_content">
+                <p>LADIES HEEL SHOES</p>
+
+                <button>SHOP NOW</button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="newsletter_container">
+        <div class="newsletter_container_overlay">
+            <div class="newsletter_container_content">
+
+                <h4>APPAREL ONLINE SHOP</h4>
+                <p>Buy Your Dreams</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="final_container">
+        <div class="top_selling_container">
+            <h1>Top Selling Products</h1>
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/topSellingProductsMensHoodieImage.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+                </div>
+                <div class="sub_containers_content">
+                    <h3>MEN'S HOODIE</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <h4>$200.00</h4>
+                    <p>$400.00</p>
+                </div>
+            </div>
+
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/topSellingProductsWomensHoodieImage.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>WOMEN'S HOODIE</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <h4>$180.00</h4>
+                    <p>$300.00</p>
+                </div>
+            </div>
+
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/topSellingProductsKidsCostumeImage.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>KID'S COSTUME</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <h4>$150.00</h4>
+                    <p>$350.00</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="trending_products_container">
+            <h1>Trending Products</h1>
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/trendingProductsFormalShirtImage.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>FORMAL SHIRT</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <h4>$150.00</h4>
+                    <p>$400.00</p>
+                </div>
+            </div>
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/trendingProductsSunclassesImage.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>SUN GLASS</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <h4>$80.00</h4>
+                    <p>$150.00</p>
+                </div>
+            </div>
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/trendingProductsToddlerCapImage.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>TODDLER'S CAP</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <h4>$50.00</h4>
+                    <p>$100.00</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="recently_added_products">
+            <h1>Recently Added Products</h1>
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/recentlyAddedProductsKidsHat.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>BABY HAT</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <h4>$100.00</h4>
+                    <p>$200.00</p>
+                </div>
+            </div>
+
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/recentlyAddedProductsMensWatch.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>MEN'S WATCH</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <h4>$180.00</h4>
+                    <p>$300.00</p>
+                </div>
+            </div>
+
+            <div class="sub_containers">
+                <div class="sub_containers_image"
+                    style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0;">
+                    <img src="images/recentlyAddedProductsSportsShoe.jpg"
+                        style="width: 150px; height: 100px; border-radius: 4px; background-color: #ECEEF0; display: inline;">
+
+                </div>
+                <div class="sub_containers_content">
+                    <h3>SPORTS SHOES</h3>
+                    <div class="subcontainer_rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <h4>$250.00</h4>
+                    <p>$350.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="feedback_container">
+        <h1>Testimonial</h1>
+        <p>OUR RESPECTED COUSTOMER FEEDBACK</p>
+        <div class="feedback_image_container">
+            <img src="images/feedbackImage.jpg" alt="feedbackImage" width="120" height="120 "
+                style="border-radius: 100%; border: 3px solid rgba(22, 22, 22, 0.5);">
+        </div>
+        <div class="feedback_contant">
+            <p>Embark on a delightful shopping journey at Apparel. Our user-centric platform offers a seamless
+                experience, allowing you to effortlessly explore a diverse array of products. From intuitive navigation
+                and detailed product descriptions to a secure checkout, we prioritize your satisfaction. Enjoy the
+                thrill of swift deliveries and personalized recommendations, making every shopping experience with us a
+                joyous and tailored adventure.</p>
+        </div>
+        <h3>K.PETER</h3>
+        <div class="feedback_rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer_container">
+            <div class="footer_contact_container">
+                <h1>APPAREL</h1>
+                <p>Welcome to Apparel, your premier destination for online fashion excellence, where trend meets
+                    convenience, and style is just a click away.</p>
+                <p><i class="fa-solid fa-envelope" style="color: yellow;"></i> info@apparel.com</p>
+                <p><i class="fa-solid fa-phone" style="color: yellow;"></i> +0 123 456 789</p>
+            </div>
+
+            <div class="footer_usefullinks_container">
+                <h2>USEFUL LINKS</h2>
+                <div class="links">
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Shop</p>
+                    <p>Blog</p>
+                    <p>Contact Us</p>
+                </div>
+                <h2>FOLLOW US</h2>
+                <div class="follow_Us">
+                    <i class="fa-brands fa-square-facebook" style="color: white;"></i>
+                    <i class="fa-brands fa-square-instagram" style="color: yellow;"></i>
+                    <i class="fa-brands fa-square-x-twitter" style="color: white;"></i>
+                </div>
+
+            </div>
+            <div class="footer_quicklinks_container">
+                <h2>QUICK LINKS</h2>
+                <div class="links">
+                    <p>Privacy</p>
+                    <p>Terms</p>
+                    <p>Faq</p>
+                </div>
+            </div>
+            <div class="footer_categories_container">
+                <h2>CATEGORIES</h2>
+                <div class="links">
+                    <p>Men</p>
+                    <p>Women</p>
+                    <p>Kids</p>
+                    <p>Accessories</p>
+                </div>
+            </div>
+            <div class="footer_newsletter_conatiner">
+                <h2>NEWSLETTER</h2>
+                <div class="links">
+                    <p>Your Email Please</p>
+                    <p><input type="search" /></p>
+                    <p>Subscribe Our Newsletter!!</p>
+                </div>
+                <h2>PAYMENT GATEWAYS</h2>
+                <div class="follow_Us">
+                    <i class="fa-brands fa-cc-visa" style="color: blue; border-radius: 3px;"></i>
+                    <i class="fa-brands fa-cc-mastercard" style="color: yellow;"></i>
+                    <i class="fa-brands fa-cc-paypal" style="color: #46d7fb; width: 10px; height: 7px;"></i>
+                </div>
+            </div>
+            <div class="footer_followus">
+
+            </div>
+            <div class="footer_payment">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

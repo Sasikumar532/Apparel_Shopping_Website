@@ -1,0 +1,1301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Nanum+Gothic&family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=EB+Garamond:wght@500&family=Nanum+Gothic&family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffcfc;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+nav h1,
+li,
+ul {
+    display: inline;
+}
+
+header {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 100%;
+    position: fixed;
+    transition:  0.5s ease-in-out;
+    background-color: #fffcfc;
+    z-index: 5;
+    
+
+}
+
+
+nav li i {
+    margin-right: 6px;
+    padding: 2px;
+}
+
+nav h1 {
+    
+    letter-spacing: 2px;
+
+}
+
+nav ul {
+
+    float: right;
+    overflow: hidden;
+}
+
+nav li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.searchBar {
+    width: 18%;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 13px;
+    padding: 15px;
+    font-size: 15px;
+    display: inline-block;
+
+}
+
+nav h1 span {
+    color: red;
+}
+
+
+
+
+#menu-btn{
+    color: black;
+    display: none;
+}
+
+
+
+
+.side_navbar{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    z-index: 1000;
+    position: fixed;
+    transition: 0.6s ease-in-out;
+    left: -40%;
+    display: none;
+    
+}
+.side_navbar p{
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    box-shadow: rgba(146, 146, 148, 0.2) 0px 1px 0px;
+
+}
+
+.side_navbar p:hover{
+    opacity: 0.7;
+}
+
+#cross_bar{
+
+    color: white;
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+}
+.side_navbar_links{
+    padding: 20px;
+    margin-top: 15px;
+}
+.side_navbar p i{
+    padding: 8px;
+}
+
+
+
+
+.founder {
+
+    padding: 4% 10%;
+    width: 30%;
+    display: inline-block;
+    margin-top: 120px;
+
+}
+
+.founder p span {
+    padding: 20px;
+    word-spacing: 5px;
+    line-height: 40px;
+
+}
+
+.brand {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.founder-name {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1.5px;
+
+}
+
+.est {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 5px;
+}
+
+.brand-slogan {
+    padding: 7% 5%;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+.landing-container {
+    display: flex;
+}
+
+.landingImage {
+    width: 40%;
+    display: inline-block;
+    padding: 4% 10%;
+    margin-top: 120px;
+
+}
+
+.baby-Image {
+    width: 90%;
+    border-radius: 2%;
+    
+}
+
+
+
+.count {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 15px;
+}
+
+
+
+/*---------specification----------*/
+
+.specification {
+    height: 110px;
+    width: 100%;
+    background-color: #D9D3D2;
+}
+
+
+
+.specification-components {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.specification_sub_container img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.specification_sub_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.specification_sub_container p {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+/*----------------new arrival-----------------*/
+
+
+
+.new-arrival-container {
+    margin: auto;
+}
+
+.new-arrival-container h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    letter-spacing: 1px;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.9;
+}
+
+.new-arrival-container p {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
+.age-catogery {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    max-width: 55%;
+    padding: 60px;
+}
+
+.age-catogery a {
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.age-catogery a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background-color: #BCBBBB;
+    left: 0px;
+    bottom: -8px;
+    transition: 0.3s;
+
+}
+
+.age-catogery a:hover:after {
+    width: 100%;
+
+
+}
+
+.age-catogery a:hover {
+    color: #F00BFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
+}
+
+
+
+.womens_card {
+    margin: auto;
+    display: inline-block;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.container .womens_card h3 {
+    font-size: 20px;
+    padding: 6px;
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container .womens_card p {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 6px;
+    font-weight: 400;
+}
+
+.container .womens_card h4 {
+    text-decoration: line-through;
+    font-size: 13px;
+    padding: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    opacity: 0.9;
+}
+
+.women-dress {
+    height: 270px;
+    width: 220px;
+
+}
+
+.womens_card:hover {
+    border: 2px solid #BCBBBB;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.mid_container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.mid_container_card {
+
+    margin-right: 40px;
+    display: inline-block;
+    width: 280px;
+    height: 380px;
+    border: 2px solid rgba(0, 0, 0, 0.1)
+}
+
+.mid_container_image {
+    width: 280px;
+    height: 380px;
+}
+
+.mid_container_content {
+    margin-top: -180px;
+    text-align: center;
+}
+
+.mid_container_content h3 {
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    opacity: 0.9;
+}
+
+.mid_container_content p {
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+.mid_container_content button {
+    padding: 8px 16px;
+    color: white;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+
+}
+
+.offer_container {
+
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.9);
+}
+
+.offer_container_content {
+    display: inline;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.offer_container_image {
+    margin: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.offer_container_content h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 1.5px;
+
+}
+
+.offer_container_content h1 span {
+    color: #F00BFF;
+
+}
+
+.offer_container_content p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 8px;
+}
+
+.offer_container_content button {
+    padding: 10px 22px;
+    margin: 5px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: #BCBBBB;
+    border: none;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+
+
+
+.popular_products_container_heading {
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'EB Garamond', serif;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    letter-spacing: 0.5px;
+}
+
+.popular_products_container {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.popular_products_card {
+    margin: auto;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    width: 210px;
+
+
+
+}
+
+.popular_product_image_container img {
+    height: 300px;
+    width: 210px;
+}
+
+
+.checked {
+    color: orange;
+    padding: 3px;
+}
+
+.star_rating {
+    padding: 8px;
+}
+
+.popular_addtocart_content {
+    text-align: center;
+    padding: 10px;
+    margin-top: -120px;
+}
+
+.popular_price_content {
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.popular_addtocart_content button {
+    padding: 8px 18px;
+    border: none;
+    margin: 3px;
+    background-color: #F00BFF;
+    color: azure;
+    opacity: 0.7;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.popular_price_content h3 {
+    font-size: 17px;
+    padding: 3px;
+    margin-top: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.popular_price_content p {
+    font-size: 17px;
+    padding: 3px;
+    margin-top: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.popular_price_content h4 {
+    text-decoration: line-through;
+    font-size: 13px;
+    padding: 3px;
+    font-family: 'Nunito Sans', sans-serif;
+    opacity: 0.9;
+}
+
+.popular_product_special_card img {
+    height: 420px;
+    width: 210px;
+}
+
+.popular_product_special_card_content {
+    text-align: center;
+    margin-top: -100px;
+
+}
+
+.popular_product_special_card_content p {
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    padding: 5px;
+    color: #F00BFF;
+    font-weight: 500;
+}
+
+.popular_product_special_card_content button {
+    padding: 8px 25px;
+    border-radius: 18px;
+    border: 2px solid rgba(32, 31, 31, 0.7);
+    background-color: transparent;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.newsletter_container {
+    background-color: #F00BFF;
+    width: 100%;
+    height: 320px;
+    margin-top: 100px;
+    z-index: -2;
+}
+
+.newsletter_container_overlay {
+    background-color: black;
+    opacity: 0.6;
+    margin-top: 100px;
+    height: 320px;
+    width: 100%;
+    z-index: 0;
+}
+
+.newsletter_container_content h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.newsletter_container_content p {
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.newsletter_container_content {
+    padding: 100px;
+}
+
+
+
+
+
+.final_container {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.top_selling_container {
+    display: inline-block;
+    margin: auto;
+}
+
+.top_selling_container h1 {
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+    padding: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+.trending_products_container {
+    display: inline;
+    margin: auto;
+}
+
+.trending_products_container h1 {
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+    padding: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+.recently_added_products {
+    display: inline;
+    margin: auto;
+}
+
+.recently_added_products h1 {
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+    padding: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+
+.sub_containers {
+    display: flex;
+    padding: 10px;
+}
+
+.sub_containers_content {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.sub_containers_content p {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: line-through;
+}
+
+.sub_containers_content h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.sub_containers_content h4 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+
+@media screen and (max-width:1300px) {
+    .searchBar {
+        width: 15%;
+    }
+
+   
+
+    .navbar li {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .specification_sub_container img {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+
+    .specification {
+        height: 90px;
+    }
+
+    .new-arrival-container h1 {
+        font-size: 40px;
+        margin-top: 50px;
+        opacity: 0.9;
+    }
+
+    .new-arrival-container p {
+        font-size: 15px;
+        padding: 8px;
+        font-weight: 200;
+    }
+
+    .mid_container_image {
+        width: 200px;
+        height: 300px;
+    }
+
+    .mid_container_card {
+
+        width: 200px;
+        height: 300px;
+    }
+
+    .popular_products_card {
+        width: 200px;
+        margin: 10px;
+    }
+
+    .popular_product_image_container img {
+        height: 250px;
+        width: 200px;
+    }
+
+    .popular_product_special_card img {
+        height: 373px;
+        width: 200px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .top_selling_container h1 {
+        font-size: 23px;
+        font-family: 'EB Garamond', serif;
+        padding: 12px;
+        margin: 18px;
+        opacity: 0.9;
+    }
+
+    .trending_products_container h1 {
+        font-size: 23px;
+        font-family: 'EB Garamond', serif;
+        padding: 12px;
+        margin: 18px;
+        opacity: 0.9;
+    }
+
+    .recently_added_products h1 {
+        font-size: 23px;
+        font-family: 'EB Garamond', serif;
+        padding: 12px;
+        margin: 18px;
+        opacity: 0.9;
+    }
+
+    .subcontainer_rating {
+        font-size: 10px;
+        letter-spacing: normal;
+    }
+
+    .womens_card {
+        margin-right: 10px;
+
+    }
+
+
+
+
+
+    .brand {
+        font-size: 22px;
+        letter-spacing: 2px;
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+
+    .founder-name {
+        font-size: 45px;
+        font-weight: 800;
+        font-family: 'EB Garamond', serif;
+        letter-spacing: 1.5px;
+
+    }
+
+    .est {
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 5px;
+    }
+
+    .brand-slogan {
+        padding: 7% 5%;
+        font-size: 21px;
+        line-height: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .count {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:1020px) {
+
+    .searchBar {
+        width: 12%;
+    }
+
+
+    .navbar li {
+        font-size: 12px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .specification_sub_container img {
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+
+    .specification {
+        height: 80px;
+    }
+
+    .count {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .recently_added_products h1 {
+        font-size: 20px;
+        font-family: 'EB Garamond', serif;
+        padding: 12px;
+        margin: 18px;
+        opacity: 0.9;
+    }
+
+    .women-dress {
+        height: 250px;
+        width: 200px;
+
+    }
+
+    .age-catogery a {
+        font-size: 18px;
+
+    }
+
+    .new-arrival-container {
+        margin-top: 10px;
+    }
+
+    .popular_products_container_heading {
+        font-size: 22px;
+        padding: 20px;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 60px;
+        letter-spacing: 0.5px;
+    }
+
+
+}
+@media screen and (max-width:925px) {
+    
+    .searchBar{
+        display: block;
+    }
+    header ul li{
+        display: none;
+    }
+    #menu-btn{
+        color: black;
+        display: block;
+    }
+    .side_navbar{
+        display: block;
+    }
+    
+    
+}
+
+@media screen and (max-width:893px) {
+    .brand {
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+
+    .founder-name {
+        font-size: 35px;
+        font-weight: 800;
+        font-family: 'EB Garamond', serif;
+        letter-spacing: 1.5px;
+
+    }
+
+    .est {
+        font-size: 19px;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 5px;
+    }
+
+    .brand-slogan {
+        margin-left: 5px;
+        padding: 7% 5%;
+        font-size: 15px;
+        line-height: 35px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .count {
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 12px;
+    }
+
+    .women-dress {
+        height: 230px;
+        width: 180px;
+
+    }
+
+    .container .womens_card h3 {
+        font-size: 15px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+
+    .container .womens_card p {
+        font-size: 12px;
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 3px;
+        font-weight: 400;
+    }
+
+    .container .womens_card h4 {
+        text-decoration: line-through;
+        font-size: 10px;
+        padding: 4px;
+        font-family: 'Nunito Sans', sans-serif;
+        opacity: 0.9;
+    }
+
+    .popular_products_card {
+        width: 180px;
+        margin: 10px;
+    }
+
+    .popular_product_image_container img {
+        height: 230px;
+        width: 180px;
+    }
+
+    .popular_product_special_card img {
+        height: 350px;
+        width: 180px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .popular_product_special_card_content {
+        margin-top: -120px;
+    }
+
+    .top_selling_container h1,
+    .trending_products_container h1,
+    .recently_added_products h1 {
+        font-size: 18px;
+        font-family: 'EB Garamond', serif;
+        padding: 10px;
+        margin: 18px;
+        opacity: 0.9;
+    }
+
+
+    .sub_containers_content h3 {
+        font-size: 11px;
+    }
+
+    .sub_containers_content h4 {
+        font-size: 15px;
+    }
+
+    .sub_containers_content p {
+        font-size: 13px;
+    }
+
+    .star_rating {
+        font-size: 13px;
+    }
+
+    .subcontainer_rating {
+        font-size: 8px;
+    }
+
+
+
+}
+
+@media screen and (max-width:890px) {
+    .count {
+        font-size: 12px;
+    }
+
+    .searchBar {
+        width: 12%;
+    }
+
+    
+
+    .navbar li {
+        font-size: 12px;
+        
+    }
+
+    .popular_products_card {
+        width: 170px;
+        margin: 10px;
+    }
+
+    .popular_product_image_container img {
+        height: 220px;
+        width: 170px;
+    }
+
+    .popular_product_special_card img {
+        height: 370px;
+        width: 170px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .popular_product_special_card_content {
+        margin-top: -120px;
+    }
+
+
+
+}
+
+@media screen and (max-width:840px) {
+    .women-dress {
+        height: 210px;
+        width: 150px;
+
+    }
+
+    .offer_container_content h1 {
+
+        font-size: 40px;
+
+    }
+
+    .popular_products_card {
+        width: 160px;
+        margin: 10px;
+    }
+
+    .popular_product_image_container img {
+        height: 210px;
+        width: 160px;
+    }
+
+    .popular_product_special_card img {
+        height: 360px;
+        width: 160px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+
+
+    .offer_container_content p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        letter-spacing: 4px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .offer_container_content button {
+        font-size: 12px;
+    }
+
+    .footer_usefullinks_container h2,
+    .footer_quicklinks_container h2,
+    .footer_categories_container h2,
+    .footer_newsletter_conatiner h2 {
+        font-size: 5px;
+    }
+
+}
+
+
+
+.feedback_container {
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.feedback_container h1 {
+    padding: 15px;
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+
+.feedback_container p {
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.feedback_image_container {
+    padding: 20px;
+}
+
+.feedback_contant p {
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300px;
+}
+
+.feedback_container h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.footer_container {
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.footer_contact_container {
+    display: inline;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.footer_contact_container h1 {
+    color: white;
+    padding: 15px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+
+}
+
+.footer_contact_container p {
+    width: 200px;
+    text-align: left;
+    color: white;
+    padding: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.footer_usefullinks_container,
+.footer_quicklinks_container,
+.footer_categories_container,
+.footer_newsletter_conatiner {
+    display: inline;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.footer_usefullinks_container h2,
+.footer_quicklinks_container h2,
+.footer_categories_container h2,
+.footer_newsletter_conatiner h2 {
+    color: white;
+    padding: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.links {
+    padding: 15px;
+
+}
+
+.links p {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px;
+}
+
+.footer_quicklinks_container {
+    display: inline-block;
+}
+
+.footer_newsletter {
+    display: inline-block;
+}
+
+.footer_followus {
+    display: inline-block;
+}
+
+.footer_payment {
+    display: inline-block;
+}
+
+.follow_Us {
+    padding: 2px;
+    margin-left: 12px;
+}
+
+.follow_Us i {
+    padding: 2px;
+}
